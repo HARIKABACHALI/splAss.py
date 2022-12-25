@@ -1,0 +1,6 @@
+list = [1,4,3,5,9,2]
+list.reverse()
+print(list)
+
+output:
+[2, 9, 5, 3, 4, 1]
