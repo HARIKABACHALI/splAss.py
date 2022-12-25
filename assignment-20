@@ -1,0 +1,7 @@
+list = [2, 3, 5, 7, 11]
+print("Maximun prime number: ",max(list))
+print("Minimun prime number: ",min(list))
+
+output:
+Maximun prime number:  11
+Minimun prime number:  2
