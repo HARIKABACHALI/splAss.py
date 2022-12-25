@@ -1,0 +1,15 @@
+num = int(input("Enter the range:"))
+sum = 0
+for num in range(2, num + 1):
+    i = 2
+    for i in range(2, num):
+        if (int(num % i) == 0):
+            i = num
+            break;
+    if i is not num:
+        sum = sum + num
+print("The sum of prime numbers from 1 to ", num, " is :", sum)
+
+output:
+Enter the range:20
+The sum of prime numbers from 1 to  20  is : 75
