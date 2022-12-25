@@ -1,0 +1,10 @@
+number = int(input("enter a number: "))
+sqrt = number ** 0.5
+if(sqrt>10):
+    print("Hello")
+else:
+    print("Hai")
+
+output:
+enter a number: 144
+Hello
